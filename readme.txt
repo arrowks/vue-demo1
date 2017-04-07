@@ -1,6 +1,8 @@
 数字小游戏
-主要用到：
-		vue:数据绑定 v-model
-			事件绑定,v-on
-			循环遍历 v-for
-			
+ 
+  1.首先v-model,数据的双向绑定
+	根据你文本框输入的值变化而变化. 
+  2.@click绑定一个click事件,其中@是v-on的缩写.
+	当然绑定事件可以带参数例如@click='time(item)'. 
+  3.v-for="(index, item) in list"
+  循环数组,index为数组的角标,item为数组中的值. 
