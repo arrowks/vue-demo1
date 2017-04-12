@@ -6,3 +6,5 @@
 	当然绑定事件可以带参数例如@click='time(item)'. 
   3.v-for="(index, item) in list"
   循环数组,index为数组的角标,item为数组中的值. 
+
+演示地址：https://arrowjava.github.io/vue-demo1/demo1.html
